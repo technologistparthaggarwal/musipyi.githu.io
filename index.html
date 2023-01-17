@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music Player in html and css</title>
+	<script src="https://kit.fontawesome.com/941117414d.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/Home Screen Image - 1.css">
+</head>
+
+<body>
+	<!-- Navbar of Music Player -->
+	<nav>
+
+		<div class="music-player-tag">
+			<!-- music-player-logo -->
+			<div class="logo">
+				<img src="./images/logo.jfif" alt="logo">
+			</div>
+
+			<!-- music-player-name -->
+			<div class="name">
+				<p>Music
+					<b>Player</b>
+				</p>
+			</div>
+		</div>
+
+
+
+		<div id="search-bar-utility">
+			<!-- search bar  -->
+			<div id="search-bar">
+				<input type="input" placeholder="Search">
+
+				<i class="fa-solid fa-magnifying-glass"></i>
+
+			</div>
+			<!-- notification bar -->
+			<div id="notification-bar">
+				<i class="fa-solid fa-bell fa-lg"></i>
+			</div>
+			<!-- user info. -->
+			<div id="user-info">
+				<img src="./images/user-image.jpg" alt="user-pic" class="user-img">
+				<div class="user-dropdown-menu">
+					<ul class="no-list-style">
+						<li style="margin-left: 12px;">Account</li>
+						<li style="margin-left: 12px;">Profile</li>
+						<li style="margin-left: -10px;"><i class="fa-solid fa-right-from-bracket"></i>&nbspSign out</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+	</nav>
+	<main>
+		<!-- New-Release section -->
+		<section id="new-release">
+			<img src="images/new-music-2.jpg">
+			<img src="images/new-music-1.jpg">
+			<img src="images/new-music-3.jpg">
+		</section>
+
+		<!-- latest -Release Section -->
+		<section id="latest-release">
+			<!-- heading -->
+			<div class="heading">
+				<h1>Latest Release</h1>
+			</div>
+			<!-- song-card-1 -->
+			<div class="song-card latest-release-song-card">
+				<div class="song-card-image-1">
+					<div class="song-card-play-button hide">
+						<a href="#music-footer"><i class="fa-solid fa-play" id="1"></i>
+							<audio class="latest-release-song" src="./music/1.mp3"></audio>
+						</a>
+					</div>
+				</div>
+				<div class="song-card-title">
+					<p><b>Jaam</b></p>
+					<p><b>december,2021</b></p>
+					<p><b>3:34</b></p>
+				</div>
+				<div class="drop-down-menu nav-menu">
+					<div class="drop-down-button">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+						<div class="drop-down-list">
+							<ul class="no-list-style">
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-play"></i>
+										<b>Play now</b>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-plus"></i>
+										<b>Add to queue</b>
+									</a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-solid fa-plus"></i>
+										<b>Add to favourite</b> </a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-circle-info"></i>
+										<b>More Info.</b>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song-card-2 -->
+			<div class="song-card latest-release-song-card">
+				<div class="song-card-image-2" >
+					<div class="song-card-play-button hide">
+						<a href="#music-footer"><i class="fa-solid fa-play" id="2"></i>
+							<audio class="latest-release-song" src="./music/2.mp3"></audio>
+						</a>
+					</div>
+				</div>
+				<div class="song-card-title">
+					<p><b>23 </b></p>
+					<p><b>december,2021</b></p>
+					<p><b>3:34</b></p>
+				</div>
+				<div class="drop-down-menu nav-menu">
+					<div class="drop-down-button">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+						<div class="drop-down-list">
+							<ul class="no-list-style">
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-play"></i>
+										<b>Play now</b>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-plus"></i>
+										<b>Add to queue</b>
+									</a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-solid fa-plus"></i>
+										<b>Add to favourite</b> </a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-circle-info"></i>
+										<b>More Info.</b>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song-card-3 -->
+			<div class="song-card latest-release-song-card">
+				<div class="song-card-image-3">
+					<div class="song-card-play-button hide">
+						<a href="#music-footer"><i class="fa-solid fa-play" id="3"></i>
+							<audio  class="latest-release-song" src="./music/3.mp3"></audio>
+						</a>
+					</div>
+				</div>
+				<div class="song-card-title">
+					<p><b>Lovely</b></p>
+					<p><b>August,2021</b></p>
+					<p><b>3:34</b></p>
+				</div>
+				<div class="drop-down-menu nav-menu">
+					<div class="drop-down-button">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+						<div class="drop-down-list">
+							<ul class="no-list-style">
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-play"></i>
+										<b>Play now</b>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-plus"></i>
+										<b>Add to queue</b>
+									</a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-solid fa-plus"></i>
+										<b>Add to favourite</b> </a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-circle-info"></i>
+										<b>More Info.</b>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song-card-4 -->
+			<div class="song-card latest-release-song-card" >
+				<div class="song-card-image-4">
+					<div class="song-card-play-button hide" >
+						<a href="#music-footer"><i class="fa-solid fa-play" id="4"></i>
+		                 <audio class="latest-release-song" src="./music/4.mp3"></audio>
+						</a>
+					</div>
+				</div>
+				<div class="song-card-title">
+					<p><b>Daku</b></p>
+					<p><b>december,2021</b></p>
+					<p><b>3:34</b></p>
+				</div>
+				<div class="drop-down-menu nav-menu">
+					<div class="drop-down-button">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+						<div class="drop-down-list">
+							<ul class="no-list-style">
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-play"></i>
+										<b>Play now</b>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-plus"></i>
+										<b>Add to queue</b>
+									</a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-solid fa-plus"></i>
+										<b>Add to favourite</b> </a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-circle-info"></i>
+										<b>More Info.</b>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Popular Artist -->
+		<section id="popular-artist">
+			<div class="heading">
+				<h1>Popular-Artist</h1>
+			</div>
+			<!-- artist-1 -->
+			<div class="popular-artist-img-1">
+				<div class="popular-artist-name">
+					<a href="home screen page-2.html">Prateek kuhad</a>
+					<p></p>
+				</div>
+			</div>
+			<!-- artist-2 -->
+			<div class="popular-artist-img-2">
+				<div class="popular-artist-name">
+					<a href="home screen page-2.html">Ritviz</a>
+				</div>
+			</div>
+			<!-- artist-3 -->
+			<div class="popular-artist-img-3">
+				<div class="popular-artist-name">
+					<a href="home screen page-2.html">Green Day</a>
+				</div>
+			</div>			
+			<!-- artist-4 -->
+			<div class="popular-artist-img-5">
+				<div class="popular-artist-name">
+					<a href="home screen page-2.html">Martin Garrix</a>
+				</div>
+			</div>
+			<!-- artist-5 -->
+			<div class="popular-artist-img-6">
+				<div class="popular-artist-name">
+					<a href="home screen page-2.html">Tove Styrke</a>
+				</div>
+			</div>
+			<!-- artiste-6 -->
+			<div class="popular-artist-img-7">
+				<div class="popular-artist-name">
+					<a href="home screen page-2.html">Taylor Swift</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- playlist Section -->
+		<section id="Playlist">
+
+			<div class="heading">
+				<h1>Playlist</h1>
+			</div>
+
+			<div id="playlist-container">
+				<div class="playlist-1">
+					<div class="playlist-text">
+						<p>love</p>
+					</div>
+				</div>
+				<div class="playlist-2">
+					<div class="playlist-text">
+						<p>Retro</p>
+					</div>
+				</div>
+				<div class="playlist-3">
+					<div class="playlist-text">
+						<p>chill</p>
+					</div>
+				</div>
+				<div class="playlist-4">
+					<div class="playlist-text">
+						<p>Pop</p>
+					</div>
+				</div>
+				<div class="playlist-5">
+					<div class="playlist-text">
+						<p>Workout</p>
+					</div>
+				</div>
+				<div class="playlist-6">
+					<div class="playlist-text">
+						<p>Rock</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Genre Section -->
+		<section id="genre">
+			<div class="genre-container">
+
+				<div class="heading">
+					<h1>Playlist</h1>
+				</div>
+
+				<div class="genre-1">
+					<div class="genre-text">
+						<p><b>Party</b></p>
+					</div>
+				</div>
+
+				<div class="genre-2">
+					<div class="genre-text">
+						<p><b>Electronics</b></p>
+					</div>
+				</div>
+				<div class="genre-3">
+					<div class="genre-text">
+						<p><b>Road Trip</b></p>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- latest-english-songs -->
+		<section id="latest-english-songs">
+
+			<div class="heading">
+				<h1>Latest-English-Song</h1>
+			</div>
+
+				<div class="eng-song-card-image-1 song-card">
+					<div class="song-card-play-button button">
+						<a href="#music-footer"><i class="fa-solid fa-play music-play" id="5"></i>
+						<audio class="latest-release-song" src="./music/5.mp3"></audio>
+					</a>
+					</div>
+				</div>
+			<div class="eng-song-card-image-2 song-card">
+				<div class="song-card-play-button button">
+					<a href="#music-footer"><i class="fa-solid fa-play music-play" id="6"></i>
+						<audio class="latest-release-song" src="./music/6.mp3"></audio>
+					</a>
+				</div>
+			</div>
+			<div class="eng-song-card-image-3 song-card">
+				<div class="song-card-play-button button">
+					<a href="#music-footer"><i class="fa-solid fa-play music-play" id="7"></i>
+						<audio class="latest-release-song" src="./music/7.mp3"></audio>
+					</a>
+				</div>
+			</div>
+			<div class="eng-song-card-image-4 song-card">
+				<div class="song-card-play-button button">
+					<a href="#music-footer"><i class="fa-solid fa-play music-play" id="8"></i>
+						<audio class="latest-release-song" src="./music/8.mp3"></audio>
+					</a>
+				</div>
+			</div>
+			<div class="eng-song-card-image-5 song-card">
+				<div class="song-card-play-button button">
+					<a href="#music-footer"><i class="fa-solid fa-play music-play" id="9"></i>
+						<audio class="latest-release-song" src="./music/9.mp3"></audio>
+					</a>
+				</div>
+			</div>
+		</section>
+
+        <!-- latest-hindi-song-container -->
+		<section id="latest-hindi-song-container">
+			<div class="heading">
+				<h1>Latest-hindi-Song</h1>
+			</div>
+
+
+			<div class="hindi-song-card-image-1 song-card">
+				<div class="song-card-play-button button">
+					<a href="#music-footer"><i class="fa-solid fa-play music-play" id="10"></i>
+						<audio class="latest-release-song" src="./music/10.mp3"></audio>
+					</a>
+				</div>
+			</div>
+			<div class="hindi-song-card-image-2 song-card">
+				<div class="song-card-play-button button">
+					<a href="#music-footer"><i class="fa-solid fa-play music-play" id="11"></i>
+						<audio class="latest-release-song" src="./music/11.mp3"></audio>
+					</a>
+				</div>
+			</div>
+			<div class="hindi-song-card-image-3 song-card">
+				<div class="song-card-play-button button">
+					<a href="#music-footer"><i class="fa-solid fa-play music-play" id="12"></i>
+						<audio class="latest-release-song" src="./music/12.mp3"></audio>
+					</a>
+				</div>
+
+			</div>
+			<div class="hindi-song-card-image-4 song-card">
+				<div class="song-card-play-button button">
+					<a href="#music-footer"><i class="fa-solid fa-play music-play" id="13"></i>
+						<audio class="latest-release-song" src="./music/13.mp3"></audio>
+					</a>
+				</div>
+			</div>
+			<div class="hindi-song-card-image-5 song-card">
+				<div class="song-card-play-button button">
+					<a href="#music-footer"><i class="fa-solid fa-play music-play" id="14"></i>
+						<audio class="latest-release-song" src="./music/14.mp3"></audio>
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+<!-- Aside section that contains queue -->
+	<aside>
+		<section>
+			<div class="heading">
+				<h1>Queue
+					<div class="drop-down-menu nav-menu inline-block-display">
+						<div class="drop-down-button">
+							<i class="fa-solid fa-circle-chevron-down"></i>
+							<div class="drop-down-list">
+								<ul class="no-list-style">
+									<li>
+										<a href="#">
+											<i class="fa-solid fa-play"></i>
+											<b>Play now</b>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa-solid fa-plus"></i>
+											<b>Add to queue</b>
+										</a>
+									</li>
+									<li>
+										<a href="#"><i class="fa-solid fa-plus"></i>
+											<b>Add to favourite</b> </a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa-solid fa-circle-info"></i>
+											<b>More Info.</b>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</h1>
+			</div>
+
+			<div class=" queue">
+				<div class="queue-image">
+					<div class="song-card-play-button hide">
+						<a href="#music-footer"><a href="#music-footer"><i class="fa-solid fa-play music-play" id="music-play"></i>
+						<audio class="latest-release-song" src="./music/11.mp3"></audio>
+					</a></a>
+					</div>
+				</div>
+				<div class="song-card-title">
+					<p><b>willow</b></p>
+					<p><b>december,2021</b></p>
+					<p><b>3:34</b></p>
+				</div>
+				<div class="drop-down-menu nav-menu">
+					<div class="drop-down-button">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+						<div class="drop-down-list">
+							<ul class="no-list-style">
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-play"></i>
+										<b>Play now</b>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-plus"></i>
+										<b>Add to queue</b>
+									</a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-solid fa-plus"></i>
+										<b>Add to favourite</b> </a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-circle-info"></i>
+										<b>More Info.</b>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song-2 -->
+			<div class=" queue">
+				<div class="queue-image">
+					<div class="song-card-play-button ">
+						<a href="#music-footer"><a href="#music-footer"><i class="fa-solid fa-play music-play" id="music-play"></i>
+						<audio class="latest-release-song" src="./music/11.mp3"></audio>
+					</a></a>
+					</div>
+				</div>
+				<div class="song-card-title">
+					<p><b>willow</b></p>
+					<p><b>december,2021</b></p>
+					<p><b>3:34</b></p>
+				</div>
+				<div class="drop-down-menu nav-menu">
+					<div class="drop-down-button">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+						<div class="drop-down-list">
+							<ul class="no-list-style">
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-play"></i>
+										<b>Play now</b>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-plus"></i>
+										<b>Add to queue</b>
+									</a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-solid fa-plus"></i>
+										<b>Add to favourite</b> </a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-circle-info"></i>
+										<b>More Info.</b>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song-3 -->
+			<div class=" queue">
+				<div class="queue-image">
+					<div class="song-card-play-button ">
+						<a href="#music-footer"><a href="#music-footer"><i class="fa-solid fa-play music-play" id="music-play"></i>
+						<audio class="latest-release-song" src="./music/11.mp3"></audio>
+					</a></a>
+					</div>
+				</div>
+				<div class="song-card-title">
+					<p><b>willow</b></p>
+					<p><b>december,2021</b></p>
+					<p><b>3:34</b></p>
+				</div>
+				<div class="drop-down-menu nav-menu">
+					<div class="drop-down-button">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+						<div class="drop-down-list">
+							<ul class="no-list-style">
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-play"></i>
+										<b>Play now</b>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-plus"></i>
+										<b>Add to queue</b>
+									</a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-solid fa-plus"></i>
+										<b>Add to favourite</b> </a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-circle-info"></i>
+										<b>More Info.</b>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- song-4 -->
+			<div class=" queue">
+				<div class="queue-image">
+					<div class="song-card-play-button">
+						<a href="#music-footer"><a href="#music-footer"><i class="fa-solid fa-play music-play" id="music-play"></i>
+						<audio class="latest-release-song" src="./music/11.mp3"></audio>
+					</a></a>
+					</div>
+				</div>
+				<div class="song-card-title">
+					<p><b>willow</b></p>
+					<p><b>december,2021</b></p>
+					<p><b>3:34</b></p>
+				</div>
+				<div class="drop-down-menu nav-menu">
+					<div class="drop-down-button">
+						<i class="fa-solid fa-circle-chevron-down"></i>
+						<div class="drop-down-list">
+							<ul class="no-list-style">
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-play"></i>
+										<b>Play now</b>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-plus"></i>
+										<b>Add to queue</b>
+									</a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-solid fa-plus"></i>
+										<b>Add to favourite</b> </a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa-solid fa-circle-info"></i>
+										<b>More Info.</b>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</aside>
+
+<!-- Music footer  -->
+	<footer id="music-footer">
+		<div class="footer-song-card">
+			<div class="footer-song-card-image"></div>
+			<div class="footer-song-card-title">
+				<p><b>willow</b></p>
+				<p><b>december,2021</b></p>
+			</div>
+		   <div class="like">
+			<i class="fa-regular fa-heart"></i>
+		   </div>
+		   <div class="skip">
+			<i class="fa-solid fa-ban"></i>
+		    </div>
+		</div>
+		<div id="play-menu">
+		
+			<div class="backward-icon" id="previous">
+				<i class="fa-solid fa-backward-step"></i>
+			</div>
+			<div class="play-icon">
+				<i class="fa-solid fa-play proplay" id="proplay"></i>
+			</div>
+			<div class="forward-icon" id="next">
+				<i class="fa-solid fa-forward-step"></i>
+			</div>
+			
+		</div>	
+		
+			<div class="progress-bar">
+				
+				<input type="range" name="progress-bar-icon" value="0" min="0" max="100" id="myprogressbar">
+				
+			</div>
+           <div class="volume-bar">
+			<i class="fa-solid fa-volume-low"></i>
+			<input type="range" name="volume-progress-bar" min="0.0" max="1.0" id="vol">
+			<i class="fa-solid fa-volume-high"></i>
+		   </div>
+		
+
+	</footer>
+
+	<script src="./index.js" ></script>
+</body>
+
+</html>
